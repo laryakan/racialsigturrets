@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Pascal (192.168.3.57) on 2024-02-18 22:53:25-->
+<macros>
+  <macro name="turret_bor_l_disruptor_01_mk1_macro" class="turret">
+    <component ref="turret_bor_l_disruptor_01_mk1" />
+    <properties>
+      <identification name="{20105,5434}" basename="{20105,5431}" shortname="{20105,5435}" makerrace="boron" description="{20105,5432}" mk="1" />
+      <bullet class="bullet_bor_turret_l_disruptor_01_mk1_macro" />
+      <rotationspeed max="25" />
+      <rotationacceleration max="80" />
+      <reload rate="1" time="0.5" />
+      <hull max="2100" threshold="0.2" integrated="0" />
+      <effects>
+        <sefx_damage_low ref="surfacemodule_damage_l_low" />
+        <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
+        <sefx_damage_high ref="surfacemodule_damage_l_high" />
+      </effects>
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.59) at 14.05.2021_15-17-10-->
+<macros>
+  <macro name="turret_arg_m_shotgun_02_mk1_macro" class="turret">
+    <component ref="turret_arg_m_shotgun_02_mk1" />
+    <properties>
+      <identification name="{20105,4044}" basename="{20105,4041}" shortname="{20105,4045}" makerrace="argon" description="{20105,4042}" mk="1" />
+      <bullet class="bullet_gen_turret_m_shotgun_01_mk1_macro" />
+      <rotationspeed max="165" />
+      <rotationacceleration max="330" />
+      <reload rate="1" time="1" />
+      <hull max="500" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>

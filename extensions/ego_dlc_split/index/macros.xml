@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/index">
+          <!-- add new macros here -->
+		  <!-- <entry name="bullet_spl_s_gatling_01_mk2_macro" value="extensions\ego_dlc_split\assets\fx\weaponfx\macros\bullet_spl_s_gatling_01_mk2_macro" /> -->
+  </add>
+</diff>

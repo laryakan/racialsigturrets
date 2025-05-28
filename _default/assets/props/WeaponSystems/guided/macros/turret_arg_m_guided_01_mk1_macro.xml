@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.124) at 16.01.2020_18-32-41-->
+<macros>
+  <macro name="turret_arg_m_guided_01_mk1_macro" class="missileturret" alias="turret_arg_m_guided_02_mk1_macro">
+    <component ref="turret_arg_m_guided_01_mk1" />
+    <properties>
+      <identification name="{20105,4284}" basename="{20105,4281}" shortname="{20105,4285}" makerrace="argon" description="{20105,4282}" mk="1" />
+      <ammunition tags="guided" />
+      <bullet class="missile_guided_light_mk1_macro" />
+      <rotationspeed max="120" />
+      <reload />
+      <storage capacity="10" />
+      <hull threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>

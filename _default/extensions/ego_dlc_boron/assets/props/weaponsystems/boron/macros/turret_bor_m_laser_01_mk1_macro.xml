@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Volodymyr (192.168.3.54) on 2023-01-23 16:38:34-->
+<macros>
+  <macro name="turret_bor_m_laser_01_mk1_macro" class="turret" alias="turret_bor_m_laser_02_mk1_macro">
+    <component ref="turret_bor_m_laser_01_mk1" />
+    <properties>
+      <identification name="{20105,4954}" basename="{20105,4951}" shortname="{20105,4955}" makerrace="boron" description="{20105,4952}" mk="1" />
+      <bullet class="bullet_bor_turret_m_laser_01_mk1_macro" />
+      <rotationspeed max="100" />
+      <rotationacceleration max="200" />
+      <reload rate="1" time="1" />
+      <hull threshold="0.2" integrated="1" />
+    </properties>
+  </macro>
+</macros>

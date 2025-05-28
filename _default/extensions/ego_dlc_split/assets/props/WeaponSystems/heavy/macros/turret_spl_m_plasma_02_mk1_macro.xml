@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.59) at 14.05.2021_15-23-26-->
+<macros>
+  <macro name="turret_spl_m_plasma_02_mk1_macro" class="turret">
+    <component ref="turret_spl_m_plasma_02_mk1" />
+    <properties>
+      <identification name="{20105,4354}" basename="{20105,4351}" shortname="{20105,4355}" makerrace="split" description="{20105,4352}" mk="1" />
+      <bullet class="bullet_gen_turret_m_plasma_01_mk1_macro" />
+      <rotationspeed max="45" />
+      <rotationacceleration max="90" />
+      <reload rate="1" time="1" />
+      <hull max="425" threshold="0.2" integrated="0" />
+    </properties>
+  </macro>
+</macros>
