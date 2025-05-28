@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ws_tmp_racsigtur"
+         name="Racial Signature Turrets"
+         description="Tired of factions having some signature weapons but all having the same turrets ? This mod fix this !"
+         author="Laryakan"
+         version="100"
+         date="2025-05-30"
+         save="false"
+         lastupdate="1748166718">
+    <dependency id="ego_dlc_split" name="Split Vendetta"/>
+</content>

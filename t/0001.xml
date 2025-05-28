@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <page id="938000" title="Racial Signature Turrets" descr="Tau turret texts" voice="no">
+    <t id="5351">Tau Cannon Turret</t>
+    <t id="5352">Experimental Split long-range Tau-pattern turret. Fires high-energy packets in a tight burst pattern, optimized for heavy hull sections and shield stripping at close-to-mid capital engagement ranges.</t>
+    <t id="5354">Split {938000,5351} Mk1</t>
+    <t id="5355">Tau L Turret</t>
+  </page>
+</language>

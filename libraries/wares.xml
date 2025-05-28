@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <add sel="/wares">
+    <ware id="turret_spl_l_shotgun_01_mk1" name="{938000,5354}" description="{938000,5352}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="93750" average="104167" max="114583" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="16" />
+          <ware ware="energycells" amount="215" />
+          <ware ware="turretcomponents" amount="48" />
+        </primary>
+      </production>
+      <component ref="turret_spl_l_shotgun_01_mk1_macro" amount="1" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.71" />
+      <owner faction="court" />
+      <owner faction="freesplit" />
+      <owner faction="split" />
+    </ware>
+  </add>
+</diff>
