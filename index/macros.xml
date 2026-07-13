@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-  <entry name="turret_spl_l_shotgun_01_mk1_macro" value="extensions\racialsigturrets\assets\props\weaponsystems\heavy\macros\turret_spl_l_shotgun_01_mk1_macro" />
-  <entry name="bullet_spl_turret_l_shotgun_01_mk1_macro" value="extensions\racialsigturrets\assets\fx\weaponfx\macros\bullet_spl_turret_l_shotgun_01_mk1_macro" />
+  <!-- SPL L Tau Accelerator Turret -->
+  <entry name="turret_spl_l_shotgun_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/heavy/macros/turret_spl_l_shotgun_01_mk1_macro" />
+  <entry name="bullet_spl_turret_l_shotgun_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_spl_turret_l_shotgun_01_mk1_macro" />
+  <!-- BOR L Arc Turret -->  
+  <entry name="turret_bor_l_arc_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/boron/macros/turret_bor_l_arc_01_mk1_macro" />
+  <entry name="bullet_bor_turret_l_arc_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_bor_turret_l_arc_01_mk1_macro" />
+  <!-- BOR L Ion Pulse Turret -->
+  <entry name="turret_bor_l_railgun_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/boron/macros/turret_bor_l_railgun_01_mk1_macro" />
+  <entry name="bullet_bor_turret_l_railgun_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_bor_turret_l_railgun_01_mk1_macro" />
 </index>

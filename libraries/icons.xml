@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+    <add sel="/icons">
+        <icon name="upgrade_*" texture="extensions/racialsigturrets/assets/textures/ui/upgrades/*.tga" height="256" width="256"/>
+    </add>
+</diff>

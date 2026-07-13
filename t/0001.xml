@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <language>
-  <page id="938000" title="Racial Signature Turrets" descr="Tau turret texts" voice="no">
-    <t id="5351">Tau Cannon Turret</t>
-    <t id="5352">Experimental Split long-range Tau-pattern turret. Fires high-energy packets in a tight burst pattern, optimized for heavy hull sections and shield stripping at close-to-mid capital engagement ranges.</t>
-    <t id="5354">Split {938000,5351} Mk1</t>
-    <t id="5355">Tau L Turret</t>
+  <page id="938000" title="Racial Signature Turrets" descr="Texts related to the Racial Signature Turrets Mod" voice="no">
+    <!-- SPL L Tau Accelerator Turret -->
+    <!-- basename -->
+    <t id="1">(Tau Accelerator Turret){20105,7101}</t>
+    <!-- description -->
+    <t id="2">Since the Split has realized that they were lacking firepower on Capital Ships, they started to adapt their small turret designs for larger vessels and adapted their plasma cannons to burst shotgun rows instead of pure energy.</t>
+    <!-- shortname -->
+    <t id="3">(Tau Accelerator){20105,1301}</t> 
+    <!-- name -->
+    <t id="4">(SPL L Tau Accelerator Turret Mk1){20202,303} {20111,5031} {20105,7101} {20111,101}</t> 
+
+    <!-- BOR L Arc Turret -->
+    <!-- basename -->
+    <t id="5">{20105,4961}</t> 
+    <!-- description -->
+    <t id="6">Boron have found a purpose in having a powerful arc turret on their capital ships, so they made some adaptation on their existing large design.</t>
+    <!-- shortname -->
+    <t id="7">(Arc){20105,4963}</t> 
+    <!-- name -->
+    <t id="8">(BOR L Arc Turret Mk1){20202,203} {20111,5031} {20105,4961} {20111,101}</t> 
+    
+    <!-- BOR L Ion Pulse Turret -->
+    <!-- basename -->
+    <t id="9">{20105,4971}</t> 
+    <!-- description -->
+    <t id="10">Long range engagement could have benefited the Boron large vessel, and as such, they made it so.</t>
+    <!-- shortname -->
+    <t id="11">(Ion Pulse){20105,4973}</t> 
+    <!-- name -->
+    <t id="12">(BOR L Ion Pulse Turret Mk1){20202,203} {20111,5031} {20105,4971} {20111,101}</t> 
   </page>
 </language>

@@ -55,58 +55,6 @@ This avoids guesswork from macro family names alone.
 | Tau Accelerator Turret Mk1 | SPL | Turret M | `turret_spl_m_shotgun_01_mk1_macro` |
 | Tau Accelerator Turret Mk1 | SPL | Turret M | `turret_spl_m_shotgun_02_mk1_macro` |
 
-## S Weapons Reference (From Your In-Game List)
-
-This section records where each S-weapon correspondence was found for future maintenance.
-
-Source files used for this section:
-
-- Base wares: `libraries/wares.xml`
-- Split DLC wares: `extensions/ego_dlc_split/libraries/wares.xml`
-- Boron DLC wares: `extensions/ego_dlc_boron/libraries/wares.xml`
-- EN localization tokens: `t/0001-l044.xml` (page `20105`)
-
-| In-Game Label (EN) | Ware ID | Macro | Name Token | Ware Source |
-|---|---|---|---|---|
-| Beam Emitter Mk1 | `weapon_gen_s_beam_01_mk1` | `weapon_gen_s_beam_01_mk1_macro` | `{20105,1084}` | `libraries/wares.xml` |
-| Beam Emitter Mk2 | `weapon_gen_s_beam_01_mk2` | `weapon_gen_s_beam_01_mk2_macro` | `{20105,1094}` | `libraries/wares.xml` |
-| Blast Mortar Mk1 | `weapon_gen_s_cannon_01_mk1` | `weapon_gen_s_cannon_01_mk1_macro` | `{20105,1254}` | `libraries/wares.xml` |
-| Blast Mortar Mk2 | `weapon_gen_s_cannon_01_mk2` | `weapon_gen_s_cannon_01_mk2_macro` | `{20105,1274}` | `libraries/wares.xml` |
-| Bolt Repeater Mk1 | `weapon_gen_s_gatling_01_mk1` | `weapon_gen_s_gatling_01_mk1_macro` | `{20105,1024}` | `libraries/wares.xml` |
-| Bolt Repeater Mk2 | `weapon_gen_s_gatling_01_mk2` | `weapon_gen_s_gatling_01_mk2_macro` | `{20105,1034}` | `libraries/wares.xml` |
-| Burst Ray Mk1 | `weapon_gen_s_burst_01_mk1` | `weapon_gen_s_burst_01_mk1_macro` | `{20105,1244}` | `libraries/wares.xml` |
-| Burst Ray Mk2 | `weapon_gen_s_burst_01_mk2` | `weapon_gen_s_burst_01_mk2_macro` | `{20105,1264}` | `libraries/wares.xml` |
-| Plasma Cannon Mk1 | `weapon_gen_s_plasma_01_mk1` | `weapon_gen_s_plasma_01_mk1_macro` | `{20105,1064}` | `libraries/wares.xml` |
-| Plasma Cannon Mk2 | `weapon_gen_s_plasma_01_mk2` | `weapon_gen_s_plasma_01_mk2_macro` | `{20105,1074}` | `libraries/wares.xml` |
-| Pulse Laser Mk1 | `weapon_gen_s_laser_01_mk1` | `weapon_gen_s_laser_01_mk1_macro` | `{20105,1004}` | `libraries/wares.xml` |
-| Pulse Laser Mk2 | `weapon_gen_s_laser_01_mk2` | `weapon_gen_s_laser_01_mk2_macro` | `{20105,1014}` | `libraries/wares.xml` |
-| Shard Battery Mk1 | `weapon_gen_s_shotgun_01_mk1` | `weapon_gen_s_shotgun_01_mk1_macro` | `{20105,1044}` | `libraries/wares.xml` |
-| Shard Battery Mk2 | `weapon_gen_s_shotgun_01_mk2` | `weapon_gen_s_shotgun_01_mk2_macro` | `{20105,1054}` | `libraries/wares.xml` |
-| Ion Blaster ARG Mk1 | `weapon_arg_s_ion_01_mk1` | `weapon_arg_s_ion_01_mk1_macro` | `{20105,1184}` | `libraries/wares.xml` |
-| Ion Blaster ARG Mk2 | `weapon_arg_s_ion_01_mk2` | `weapon_arg_s_ion_01_mk2_macro` | `{20105,1194}` | `libraries/wares.xml` |
-| Arc Gun BOR Mk1 | `weapon_bor_s_arc_01_mk1` | `weapon_bor_s_arc_01_mk1_macro` | `{20105,1494}` | `extensions/ego_dlc_boron/libraries/wares.xml` |
-| Ion Gatling BOR Mk1 | `weapon_bor_s_gatling_01_mk1` | `weapon_bor_s_gatling_01_mk1_macro` | `{20105,1504}` | `extensions/ego_dlc_boron/libraries/wares.xml` |
-| Phase Gun BOR Mk1 | `weapon_bor_s_laser_01_mk1` | `weapon_bor_s_laser_01_mk1_macro` | `{20105,1484}` | `extensions/ego_dlc_boron/libraries/wares.xml` |
-| Mass Driver PAR Mk1 | `weapon_par_s_railgun_01_mk1` | `weapon_par_s_railgun_01_mk1_macro` | `{20105,1224}` | `libraries/wares.xml` |
-| Mass Driver PAR Mk2 | `weapon_par_s_railgun_01_mk2` | `weapon_par_s_railgun_01_mk2_macro` | `{20105,1234}` | `libraries/wares.xml` |
-| Boson Lance SPL Mk1 | `weapon_spl_s_railgun_01_mk1` | `weapon_spl_s_railgun_01_mk1_macro` | `{20105,1284}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Boson Lance SPL Mk2 | `weapon_spl_s_railgun_01_mk2` | `weapon_spl_s_railgun_01_mk2_macro` | `{20105,1294}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Neutron Gatling SPL Mk1 | `weapon_spl_s_gatling_01_mk1` | `weapon_spl_s_gatling_01_mk1_macro` | `{20105,1324}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Neutron Gatling SPL Mk2 | `weapon_spl_s_gatling_01_mk2` | `weapon_spl_s_gatling_01_mk2_macro` | `{20105,1334}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Tau Accelerator SPL Mk1 | `weapon_spl_s_shotgun_01_mk1` | `weapon_spl_s_shotgun_01_mk1_macro` | `{20105,1304}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Tau Accelerator SPL Mk2 | `weapon_spl_s_shotgun_01_mk2` | `weapon_spl_s_shotgun_01_mk2_macro` | `{20105,1314}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Thermal Disintegrator SPL Mk1 | `weapon_spl_s_sticky_01_mk1` | `weapon_spl_s_sticky_01_mk1_macro` | `{20105,1344}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Thermal Disintegrator SPL Mk2 | `weapon_spl_s_sticky_01_mk2` | `weapon_spl_s_sticky_01_mk2_macro` | `{20105,1354}` | `extensions/ego_dlc_split/libraries/wares.xml` |
-| Muon Disintegrator TEL Mk1 | `weapon_tel_s_charge_01_mk1` | `weapon_tel_s_charge_01_mk1_macro` | `{20105,1204}` | `libraries/wares.xml` |
-| Muon Disintegrator TEL Mk2 | `weapon_tel_s_charge_01_mk2` | `weapon_tel_s_charge_01_mk2_macro` | `{20105,1214}` | `libraries/wares.xml` |
-| Electromagnetic Gun TER Mk1 | `weapon_ter_s_laser_02_mk1` | `weapon_ter_s_laser_02_mk1_macro` | `{20105,1564}` | `libraries/wares.xml` |
-| Pulse Laser TER Mk1 | `weapon_ter_s_laser_01_mk1` | `weapon_ter_s_laser_01_mk1_macro` | `{20105,1464}` | `libraries/wares.xml` |
-| Pulse Laser TER Mk2 | `weapon_ter_s_laser_01_mk2` | `weapon_ter_s_laser_01_mk2_macro` | `{20105,1474}` | `libraries/wares.xml` |
-
-Note on TEL naming:
-
-- The technical family is `*_charge_*` and localization token composition can render either Muon Charger or Muon Disintegrator depending on how the final string is assembled in UI contexts.
-
 ## M Weapons Reference (From Your In-Game List)
 
 Source files used for this section:
@@ -218,17 +166,22 @@ The matrix below is built from official wares + resolved EN names, then grouped 
 | Tau Accelerator | SPL | Weapon | S, M |
 | Tau Accelerator | SPL | Turret | M |
 
-## Missing M and Missing L (Cross-Result)
+## Missing in L
 
-Interpretation used:
-- Missing in M: no M variant exists for that signature family (weapon or turret).
-- Missing in L: no L variant exists for that signature family (weapon or turret).
+| Name                        | M Turret Macro path                                                                                      | M Bullet Macro path                                                                              |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Arc Gun / Arc Turret        | `extensions/ego_dlc_boron/assets/props/weaponsystems/boron/macros/turret_bor_m_arc_01_mk1_macro.xml`     | `extensions/ego_dlc_boron/assets/fx/weapons/macros/bullet_bor_turret_m_arc_01_mk1_macro.xml`     |
+| Blast Mortar                | `assets/props/WeaponSystems/standard/macros/turret_par_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_par_turret_m_cannon_01_mk1_macro.xml`                          |
+| Distortion                  | `assets/props/WeaponSystems/standard/macros/turret_gen_m_disabler_01_mk1_macro.xml`                      | `assets/fx/weaponFx/macros/bullet_gen_turret_m_disabler_01_mk1_macro.xml`                        |
+| Electromagnetic Turret      | `extensions/ego_dlc_terran/assets/props/weaponsystems/terran/macros/turret_ter_m_laser_03_mk1_macro.xml` | `extensions/ego_dlc_terran/assets/fx/weapons/macros/bullet_ter_turret_m_laser_03_mk1_macro.xml`  |
+| Ion Blaster                 | `assets/props/WeaponSystems/standard/macros/turret_tel_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_tel_turret_m_shotgun_01_mk1_macro.xml`                         |
+| Ion Pulse Turret            | `extensions/ego_dlc_boron/assets/props/weaponsystems/boron/macros/turret_bor_m_railgun_01_mk1_macro.xml` | `extensions/ego_dlc_boron/assets/fx/weapons/macros/bullet_bor_turret_m_railgun_01_mk1_macro.xml` |
+| Muon Blaster / Muon Charger | `assets/props/WeaponSystems/standard/macros/turret_tel_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_tel_turret_m_blaster_01_mk1_macro.xml`                         |
+| Neutron Gatling             | `extensions/ego_dlc_split/assets/props/weaponsystems/split/macros/weapon_spl_m_gatling_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_gatling_01_mk1_macro.xml` |
+| Scalar Aperture             | `assets/props/WeaponSystems/standard/macros/turret_gen_m_shieldpierce_01_mk1_macro.xml`                  | `assets/fx/weaponFx/macros/bullet_gen_turret_m_shieldpierce_01_mk1_macro.xml`                    |
+| Tau Accelerator             | `extensions/ego_dlc_split/assets/props/weaponsystems/split/macros/weapon_spl_m_shotgun_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_shotgun_01_mk1_macro.xml` |
 
-### Missing in M
-
-- None in this signature set.
-
-### Missing in L
+#### Short list
 
 - Arc Gun / Arc Turret
 - Blast Mortar
@@ -243,6 +196,5 @@ Interpretation used:
 
 ## Notes
 
-- Your assumption "probably none in L" is not fully correct.
 - Several signature families do have L variants, mainly as turrets: Boson Lance, Mass Driver, Meson Stream, Phase Turret, Proton Barrage.
 - Many other signature families remain M/S-only today in official 9.0 data.

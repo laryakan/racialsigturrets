@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
   <add sel="/wares">
-    <ware id="turret_spl_l_shotgun_01_mk1" name="{938000,5354}" description="{938000,5352}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-      <price min="93750" average="104167" max="114583" />
+    <!-- SPL L Tau Accelerator Turret -->
+    <ware id="turret_spl_l_shotgun_01_mk1" name="{938000,4}" description="{938000,2}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="208378" average="250419" max="302461" />
       <production time="10" amount="1" method="default" name="{20206,101}">
         <primary>
-          <ware ware="advancedelectronics" amount="16" />
-          <ware ware="energycells" amount="215" />
-          <ware ware="turretcomponents" amount="48" />
+          <ware ware="advancedelectronics" amount="19" />
+          <ware ware="energycells" amount="268" />
+          <ware ware="turretcomponents" amount="58" />
         </primary>
       </production>
-      <component ref="turret_spl_l_shotgun_01_mk1_macro" amount="1" />
+      <component ref="turret_spl_l_shotgun_01_mk1_macro" />
       <restriction licence="capitalequipment" />
-      <use threshold="0.71" />
+      <use threshold="0.91" />
       <owner faction="court" />
       <owner faction="freesplit" />
       <owner faction="split" />
+    </ware>
+    <!-- BOR L Arc Turret -->
+    <ware id="turret_bor_l_arc_01_mk1" name="{938000,8}" description="{938000,6}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
+      <price min="230022" average="244469" max="258916" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="23" />
+          <ware ware="energycells" amount="297" />
+          <ware ware="turretcomponents" amount="69" />
+        </primary>
+      </production>
+      <component ref="turret_bor_l_arc_01_mk1_macro" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.91" />
+      <owner faction="boron" />
+    </ware>
+    <!-- BOR L Ion Pulse Turret -->
+    <ware id="turret_bor_l_railgun_01_mk1" description="{938000,10}" name="{938000,12}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
+      <price min="280571" average="289524" max="298476" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="30" />
+          <ware ware="energycells" amount="350" />
+          <ware ware="turretcomponents" amount="53" />
+        </primary>
+      </production>
+      <component ref="turret_bor_l_railgun_01_mk1_macro" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.91" />
+      <owner faction="boron" />
     </ware>
   </add>
 </diff>

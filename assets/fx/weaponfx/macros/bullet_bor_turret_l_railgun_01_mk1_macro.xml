@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <!-- values based on M variant extensions/ego_dlc_boron/assets/fx/weaponfx/macros/bullet_bor_turret_m_railgun_01_mk1_macro.xml --> 
+  <!-- and others L weapons like extensions/ego_dlc_boron/assets/fx/weaponfx/macros/bullet_bor_turret_l_disruptor_01_mk1_macro --> 
+  <macro name="bullet_bor_turret_l_railgun_01_mk1_macro" class="bullet">
+    <component ref="bullet_bor_s_railgun_01_mk1" />
+    <properties>
+      <ammunition value="6" reload="15.5" />
+      <bullet speed="9000" lifetime="0.9" amount="2" barrelamount="2" icon="weapon_bor_railgun_mk1" timediff="0.001" angle="0.28" maxhits="1" ricochet="0" restitution="1" scale="0" attach="0" influencelist="ion_disrupt_m" />
+      <reload rate="1.2" />
+      <damage value="153" shield="105" shielddisruption="10" repair="0">
+        <multiplier traveldrive="2" />
+      </damage>
+      <effects>
+        <bigobjectimpact inside="impact_bor_m_railgun_01_mk1_bigobject_inside" ref="impact_bor_m_railgun_01_mk1_bigobject" />
+        <impact inside="impact_bor_m_railgun_01_mk1_inside" ref="impact_bor_m_railgun_01_mk1" />
+        <launch ref="muzzle_bor_m_railgun_01_mk1" />
+      </effects>
+      <weapon system="turret_longrange" />
+    </properties>
+  </macro>
+</macros>
