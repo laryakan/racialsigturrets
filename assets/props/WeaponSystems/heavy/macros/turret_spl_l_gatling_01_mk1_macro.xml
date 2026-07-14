@@ -2,8 +2,8 @@
 <macros>
   <!-- values based on M variant extensions\ego_dlc_split\assets\props\WeaponSystems\heavy\macros\turret_spl_m_gatling_01_mk1_macro.xml --> 
   <!-- and others L weapons like extensions\ego_dlc_split\assets\props\WeaponSystems\heavy\macros\turret_spl_l_plasma_01_mk1_macro.xml --> 
-  <macro name="weapon_spl_l_gatling_01_mk1_macro" class="weapon">
-    <component ref="weapon_spl_l_laser_01_mk1" />
+  <macro name="turret_spl_l_gatling_01_mk1_macro" class="turret">
+    <component ref="turret_spl_l_laser_01_mk1" />
     <properties>
       <identification name="{938000,20}" basename="{938000,17}" shortname="{938000,19}" makerrace="split" description="{938000,18}" mk="1" />
       <bullet class="bullet_spl_turret_l_gatling_01_mk1_macro" />

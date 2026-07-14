@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <!-- values based on M variant extensions/ego_dlc_split/assets/fx/weaponfx/macros/bullet_spl_turret_m_shotgun_01_mk1_macro.xml --> 
-  <!-- and others L weapons like extensions\ego_dlc_split\assets\fx\weaponfx\macros\bullet_spl_turret_l_plasma_01_mk1_macro.xml --> 
+  <!-- values based on M variant extensions/ego_dlc_split/assets/fx/weaponfx/macros/bullet_spl_turret_m_gatling_01_mk1_macro.xml --> 
+  <!-- and others L weapons like extensions/ego_dlc_split/assets/fx/weaponfx/macros/bullet_spl_turret_l_plasma_01_mk1_macro.xml --> 
   <macro name="bullet_spl_turret_l_gatling_01_mk1_macro" class="bullet">
     <component ref="bullet_spl_s_gatling_01_mk1" />
     <properties>
