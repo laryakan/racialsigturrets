@@ -3,7 +3,7 @@
   <add sel="/wares">
     <!-- SPL L Tau Accelerator Turret -->
     <ware id="turret_spl_l_shotgun_01_mk1" name="{938000,4}" description="{938000,2}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
-      <price min="208378" average="250419" max="302461" />
+      <price min="208378" average="220519" max="232661" />
       <production time="10" amount="1" method="default" name="{20206,101}">
         <primary>
           <ware ware="advancedelectronics" amount="19" />
@@ -13,7 +13,7 @@
       </production>
       <component ref="turret_spl_l_shotgun_01_mk1_macro" />
       <restriction licence="capitalequipment" />
-      <use threshold="0.91" />
+      <use threshold="0.71" />
       <owner faction="court" />
       <owner faction="freesplit" />
       <owner faction="split" />
@@ -30,7 +30,7 @@
       </production>
       <component ref="turret_bor_l_arc_01_mk1_macro" />
       <restriction licence="capitalequipment" />
-      <use threshold="0.91" />
+      <use threshold="0.71" />
       <owner faction="boron" />
     </ware>
     <!-- BOR L Ion Pulse Turret -->
@@ -45,8 +45,64 @@
       </production>
       <component ref="turret_bor_l_railgun_01_mk1_macro" />
       <restriction licence="capitalequipment" />
-      <use threshold="0.91" />
+      <use threshold="0.71" />
       <owner faction="boron" />
+    </ware>
+    
+    <!-- PAR L Blast Mortar Turret -->
+    <ware id="turret_par_l_shotgun_01_mk1" name="{938000,16}" description="{938000,14}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="193217" average="214685" max="235154" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="18" />
+          <ware ware="energycells" amount="196" />
+          <ware ware="turretcomponents" amount="51" />
+        </primary>
+      </production>
+      <component ref="turret_par_l_shotgun_01_mk1_macro" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.71" />
+      <owner faction="alliance" />
+      <owner faction="buccaneers" />
+      <owner faction="holyorder" />
+      <owner faction="paranid" />
+      <owner faction="trinity" />
+    </ware>
+    
+    <!-- SPL L Neutron Gatling Turret -->
+    <ware id="turret_spl_l_gatling_01_mk1" name="{938000,20}" description="{938000,18}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="198378" average="210419" max="246154" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="21" />
+          <ware ware="energycells" amount="191" />
+          <ware ware="turretcomponents" amount="32" />
+        </primary>
+      </production>
+      <component ref="turret_spl_l_gatling_01_mk1_macro" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.71" />
+      <owner faction="court" />
+      <owner faction="freesplit" />
+      <owner faction="split" />
+    </ware>
+    
+    <!-- TEL L Muon Blaster Turret -->
+    <ware id="turret_tel_l_shotgun_01_mk1" name="{938000,24}" description="{938000,22}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="158262" average="164735" max="171209" />
+      <production time="10" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="advancedelectronics" amount="22" />
+          <ware ware="energycells" amount="233" />
+          <ware ware="turretcomponents" amount="41" />
+        </primary>
+      </production>
+      <component ref="turret_tel_l_shotgun_01_mk1_macro" />
+      <restriction licence="capitalequipment" />
+      <use threshold="0.71" />
+      <owner faction="alliance" />
+      <owner faction="ministry" />
+      <owner faction="teladi" />
     </ware>
   </add>
 </diff>

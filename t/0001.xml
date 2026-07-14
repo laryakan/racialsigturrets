@@ -13,7 +13,7 @@
 
     <!-- BOR L Arc Turret -->
     <!-- basename -->
-    <t id="5">{20105,4961}</t> 
+    <t id="5">(Arc Turret){20105,4961}</t> 
     <!-- description -->
     <t id="6">Boron have found a purpose in having a powerful arc turret on their capital ships, so they made some adaptation on their existing large design.</t>
     <!-- shortname -->
@@ -23,12 +23,42 @@
     
     <!-- BOR L Ion Pulse Turret -->
     <!-- basename -->
-    <t id="9">{20105,4971}</t> 
+    <t id="9">(Ion Pulse Turret){20105,4971}</t> 
     <!-- description -->
     <t id="10">Long range engagement could have benefited the Boron large vessel, and as such, they made it so.</t>
     <!-- shortname -->
     <t id="11">(Ion Pulse){20105,4973}</t> 
     <!-- name -->
     <t id="12">(BOR L Ion Pulse Turret Mk1){20202,203} {20111,5031} {20105,4971} {20111,101}</t> 
+    
+    <!-- PAR L Blast Mortar Turret -->
+    <!-- basename -->
+    <t id="13">(Blast Mortar Turret){20105,7071}</t> 
+    <!-- description -->
+    <t id="14">Paranid have developed a powerful blast mortar turret for their large vessels, providing devastating firepower at medium range.</t>
+    <!-- shortname -->
+    <t id="15">(Blast Mortar){20105,1251}</t> 
+    <!-- name -->
+    <t id="16">(PAR L Blast Mortar Turret Mk1){20202,403} {20111,5031} {20105,7071} {20111,101}</t> 
+    
+    <!-- SPL L Neutron Gatling Turret -->
+    <!-- basename -->
+    <t id="17">(Neutron Gatling Turret){20105,7091}</t> 
+    <!-- description -->
+    <t id="18">Since the Split has realized that they were lacking firepower on Capital Ships, they started to adapt their small turret designs for larger vessels and adapted their plasma cannons to burst shotgun rows instead of pure energy.</t>
+    <!-- shortname -->
+    <t id="19">(Neutron Gatling){20105,7093}</t> 
+    <!-- name -->
+    <t id="20">(SPL L Neutron Gatling Turret Mk1){20202,303} {20111,5031} {20105,7091} {20111,101}</t> 
+    
+    <!-- TEL L Muon Blaster Turret -->
+    <!-- basename -->
+    <t id="21">(Muon Blaster Turret){20105,7111}</t> 
+    <!-- description -->
+    <t id="22">Regarding the increasing firepower on rival faction capital ships, the Teladi have improved the size of the Muon Blaster Turret to ensure their large vessels remain competitive in battle.</t>
+    <!-- shortname -->
+    <t id="23">(Muon Blaster){20105,7113}</t> 
+    <!-- name -->
+    <t id="24">(TEL L Muon Blaster Turret Mk1){20202,503} {20111,5031} {20105,7111} {20111,101}</t> 
   </page>
 </language>

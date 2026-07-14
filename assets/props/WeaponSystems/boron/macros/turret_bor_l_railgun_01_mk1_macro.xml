@@ -10,6 +10,12 @@
       <rotationspeed max="18" />
       <rotationacceleration max="27" />
       <hull max="3450" threshold="0.2" integrated="0" />
+      <effects>
+        <sefx_damage_high ref="surfacemodule_damage_l_high" />
+        <sefx_damage_low ref="surfacemodule_damage_l_low" />
+        <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
+      </effects>
+      <weapon angle="2" />
     </properties>
   </macro>
 </macros>

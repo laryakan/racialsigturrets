@@ -173,13 +173,12 @@ The matrix below is built from official wares + resolved EN names, then grouped 
 | Arc Gun / Arc Turret        | `extensions/ego_dlc_boron/assets/props/weaponsystems/boron/macros/turret_bor_m_arc_01_mk1_macro.xml`     | `extensions/ego_dlc_boron/assets/fx/weapons/macros/bullet_bor_turret_m_arc_01_mk1_macro.xml`     |
 | Blast Mortar                | `assets/props/WeaponSystems/standard/macros/turret_par_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_par_turret_m_cannon_01_mk1_macro.xml`                          |
 | Distortion                  | `assets/props/WeaponSystems/standard/macros/turret_gen_m_disabler_01_mk1_macro.xml`                      | `assets/fx/weaponFx/macros/bullet_gen_turret_m_disabler_01_mk1_macro.xml`                        |
-| Electromagnetic Turret      | `extensions/ego_dlc_terran/assets/props/weaponsystems/terran/macros/turret_ter_m_laser_03_mk1_macro.xml` | `extensions/ego_dlc_terran/assets/fx/weapons/macros/bullet_ter_turret_m_laser_03_mk1_macro.xml`  |
 | Ion Blaster                 | `assets/props/WeaponSystems/standard/macros/turret_tel_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_tel_turret_m_shotgun_01_mk1_macro.xml`                         |
 | Ion Pulse Turret            | `extensions/ego_dlc_boron/assets/props/weaponsystems/boron/macros/turret_bor_m_railgun_01_mk1_macro.xml` | `extensions/ego_dlc_boron/assets/fx/weapons/macros/bullet_bor_turret_m_railgun_01_mk1_macro.xml` |
 | Muon Blaster / Muon Charger | `assets/props/WeaponSystems/standard/macros/turret_tel_m_shotgun_01_mk1_macro.xml`                       | `assets/fx/weaponFx/macros/bullet_tel_turret_m_blaster_01_mk1_macro.xml`                         |
-| Neutron Gatling             | `extensions/ego_dlc_split/assets/props/weaponsystems/split/macros/weapon_spl_m_gatling_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_gatling_01_mk1_macro.xml` |
+| Neutron Gatling             | `extensions/ego_dlc_split/assets/props/weaponsystems/heavy/macros/turret_spl_m_gatling_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_gatling_01_mk1_macro.xml` |
 | Scalar Aperture             | `assets/props/WeaponSystems/standard/macros/turret_gen_m_shieldpierce_01_mk1_macro.xml`                  | `assets/fx/weaponFx/macros/bullet_gen_turret_m_shieldpierce_01_mk1_macro.xml`                    |
-| Tau Accelerator             | `extensions/ego_dlc_split/assets/props/weaponsystems/split/macros/weapon_spl_m_shotgun_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_shotgun_01_mk1_macro.xml` |
+| Tau Accelerator             | `extensions/ego_dlc_split/assets/props/weaponsystems/standard/macros/weapon_spl_m_shotgun_01_mk1_macro.xml` | `extensions/ego_dlc_split/assets/fx/weapons/macros/bullet_spl_turret_m_shotgun_01_mk1_macro.xml` |
 
 #### Short list
 

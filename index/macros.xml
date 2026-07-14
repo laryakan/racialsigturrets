@@ -9,4 +9,13 @@
   <!-- BOR L Ion Pulse Turret -->
   <entry name="turret_bor_l_railgun_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/boron/macros/turret_bor_l_railgun_01_mk1_macro" />
   <entry name="bullet_bor_turret_l_railgun_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_bor_turret_l_railgun_01_mk1_macro" />
+  <!-- PAR L Blast Mortar Turret -->
+  <entry name="turret_par_l_shotgun_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/paranid/macros/turret_par_l_shotgun_01_mk1_macro" />
+  <entry name="bullet_par_turret_l_cannon_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_par_turret_l_cannon_01_mk1_macro" />
+  <!-- SPL L Neutron Gatling Turret -->
+  <entry name="turret_spl_l_gatling_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/spl/macros/turret_spl_l_gatling_01_mk1_macro" />
+  <entry name="bullet_spl_turret_l_gatling_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_spl_turret_l_gatling_01_mk1_macro" />
+  <!-- TEL L Muon Blaster Turret -->
+  <entry name="turret_tel_l_shotgun_01_mk1_macro" value="extensions/racialsigturrets/assets/props/weaponsystems/teladi/macros/turret_tel_l_shotgun_01_mk1_macro" />
+  <entry name="bullet_tel_turret_l_blaster_01_mk1_macro" value="extensions/racialsigturrets/assets/fx/weaponfx/macros/bullet_tel_turret_l_blaster_01_mk1_macro" />
 </index>
