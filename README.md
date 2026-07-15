@@ -5,16 +5,19 @@ X4: Foundations - more culture in your turrets
 
 **X4 Signature Turrets Extension** adds new **Large (L)** turret variants based on faction-specific signature weapons.
 
-Some unique weapons in the vanilla game (or official DLC) are only available in **Medium (M)** size (and only since 9.0). This mod expands their availability by introducing **Large turret versions**, allowing capital ships to use technologies previously restricted to medium turrets.
+Some unique weapons in the vanilla game (or official DLC) are only available in **Medium (M)** size, and only since 9.0. This mod expands their availability by introducing **Large turret versions**, allowing capital ships to use technologies previously restricted to medium turrets.
 
 Each weapon keeps the identity of its original faction technology:
 
 * **Boron**: advanced energy and electromagnetic technologies
 * **Split**: high-output offensive weapon systems
-* **Terran**: specialized high-performance weapon platforms
-* **Argon / Paranid / Teladi**: existing weapon doctrines extended to larger platforms
+* **Paranid / Teladi**: existing weapon doctrines extended to larger platforms
 
 The goal is to increase capital ship customization and weapon diversity while preserving the original game design.
+
+Unfortunatly, I didn't added new model, so I used existing ones, altering stats only.
+
+Maybe I'll add more turrets this way in the future, like I wanted to add the Electromagnetic Turret Terrans (but I didn't find a M variant to use as template in game files), or the Scalar Aperture (which isn't tied to a specific factions).
 
 ---
 
@@ -24,15 +27,11 @@ The mod adds Large variants for the following signature weapons:
 
 | Weapon                      | Original Faction |
 | --------------------------- | ---------------- |
-| Arc Gun / Arc Turret        | Boron            |
+| Arc Turret                  | Boron            |
 | Blast Mortar                | Paranid          |
-| Distortion                  | Teladi / Generic |
-| Electromagnetic Turret      | Terran           |
-| Ion Blaster                 | Teladi           |
 | Ion Pulse Turret            | Boron            |
 | Muon Blaster / Muon Charger | Teladi           |
 | Neutron Gatling             | Split            |
-| Scalar Aperture             | Generic          |
 | Tau Accelerator             | Split            |
 
 ---
@@ -123,6 +122,6 @@ I've made a very crappy script to extract original M Turret data for the targets
 You are free to use, modify and redistribute any code or assets of mine which is not directly extracted from the game as soon as you mention the above Copyright.
 A link to my github is provided below. A little mention is all I ask.
 
-- github : https://github.com/laryakan/distances
+- github : https://github.com/laryakan/racialsigturrets
 - nexus : https://www.nexusmods.com/x4foundations/mods/<incoming>
 - nexus user : https://next.nexusmods.com/profile/Laryakan
