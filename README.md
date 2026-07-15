@@ -25,14 +25,12 @@ Maybe I'll add more turrets this way in the future, like I wanted to add the Ele
 
 The mod adds Large variants for the following signature weapons:
 
-| Weapon                      | Original Faction |
-| --------------------------- | ---------------- |
-| Arc Turret                  | Boron            |
-| Blast Mortar                | Paranid          |
-| Ion Pulse Turret            | Boron            |
-| Muon Blaster / Muon Charger | Teladi           |
-| Neutron Gatling             | Split            |
-| Tau Accelerator             | Split            |
+- Arc Turret (BOR)
+- Blast Mortar (PAR)
+- Ion Pulse Turret (BOR)
+- Muon Blaster (TEL)
+- Neutron Gatling (SPL)
+- Tau Accelerator (SPL)
 
 ---
 
@@ -111,7 +109,7 @@ I've made a very crappy script to extract original M Turret data for the targets
 * Visual assets are reusing Vanilla or DLC ones, I didn't handcrafted new models.
 
 # Requirements ?
-- NONE
+- No hard requirement, or if you dont have a required DLC, the weapons will simply not be added (can cause an error in logs though)
 
 # Redistribution and modification
 
@@ -123,5 +121,5 @@ You are free to use, modify and redistribute any code or assets of mine which is
 A link to my github is provided below. A little mention is all I ask.
 
 - github : https://github.com/laryakan/racialsigturrets
-- nexus : https://www.nexusmods.com/x4foundations/mods/<incoming>
+- nexus : https://www.nexusmods.com/x4foundations/mods/2241
 - nexus user : https://next.nexusmods.com/profile/Laryakan
