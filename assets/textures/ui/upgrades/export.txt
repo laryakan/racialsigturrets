@@ -1,0 +1,1 @@
+BC3/DXT5, no mipmap, no premult-Alpha, sRGB
